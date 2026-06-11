@@ -683,7 +683,7 @@ const CourseLearning = () => {
                   <Link to="/my-learning">
                     <Button variant="outline">My Learning</Button>
                   </Link>
-                  <Link to="https://tern-konnect-frontend.vercel.app/">
+                  <Link to={import.meta.env.VITE_ACADEMY_URL || "https://tern-konnect-frontend.vercel.app/"}>
                     <Button variant="outline">Explore Academy</Button>
                   </Link>
                 </div>
@@ -871,7 +871,7 @@ const CourseLearning = () => {
                         My Learning
                       </Button>
                     </Link>
-                    <Link to="https://tern-konnect-frontend.vercel.app/">
+                    <Link to={import.meta.env.VITE_ACADEMY_URL || "https://tern-konnect-frontend.vercel.app/"}>
                       <Button
                         variant="outline"
                         size="sm"

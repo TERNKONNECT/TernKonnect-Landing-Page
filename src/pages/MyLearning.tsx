@@ -59,7 +59,7 @@ const MyLearning = () => {
             <p className="text-muted-foreground">
               Enroll in a course to start learning
             </p>
-            <Link to="https://tern-konnect-frontend.vercel.app/">
+            <Link to={import.meta.env.VITE_ACADEMY_URL || "https://tern-konnect-frontend.vercel.app/"}>
               <Button className="gradient-primary border-0 text-white">
                 Explore Academy
               </Button>
