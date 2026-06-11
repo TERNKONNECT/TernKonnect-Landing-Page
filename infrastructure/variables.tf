@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "project_name" {
   description = "Name of the project"
   type        = string
-  default     = "dws-academy-frontend"
+  default     = "ternkonnect-landing-page"
 }
 
 variable "environment" {
@@ -25,7 +25,7 @@ variable "domain_name" {
 variable "s3_bucket_name" {
   description = "The name of the S3 bucket for static website files"
   type        = string
-  default     = "dws-academy-frontend-production-126078152205"
+  default     = "ternkonnect-landing-page"
 }
 
 

@@ -196,7 +196,7 @@ const CourseDetail = () => {
       <MainLayout>
         <div className="container py-20 text-center">
           <h2 className="text-2xl font-bold">Course not found</h2>
-          <Button className="mt-4" onClick={() => navigate("https://tern-konnect-frontend.vercel.app/")}>
+          <Button className="mt-4" onClick={() => window.location.href = import.meta.env.VITE_ACADEMY_URL || "https://tern-konnect-frontend.vercel.app/"}>
             Explore Academy
           </Button>
         </div>
