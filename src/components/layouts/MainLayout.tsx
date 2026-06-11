@@ -16,7 +16,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
 
   const navLinks = [
     { to: "/", label: "Home" },
-    { to: "/courses", label: "Explore Academy" },
+    { to: "https://tern-konnect-frontend.vercel.app/", label: "Explore Academy" },
     { to: "/about", label: "About Us" },
     { to: "/services", label: "Services" },
     // ...(isAuthenticated ? [{ to: "/my-learning", label: "My Learning" }] : []),
@@ -197,7 +197,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <Link
-                  to="/courses"
+                  to="https://tern-konnect-frontend.vercel.app/"
                   className="hover:text-foreground transition-colors"
                 >
                   Explore Academy

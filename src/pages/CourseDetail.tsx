@@ -113,7 +113,7 @@ const CourseDetail = () => {
           setHasReviewed(true);
         }
       })
-      .catch(() => {});
+      .catch(() => { });
   }, [id, currentUser?.id]);
 
   const enrolled = id ? isEnrolled(id) : false;
@@ -196,7 +196,7 @@ const CourseDetail = () => {
       <MainLayout>
         <div className="container py-20 text-center">
           <h2 className="text-2xl font-bold">Course not found</h2>
-          <Button className="mt-4" onClick={() => navigate("/courses")}>
+          <Button className="mt-4" onClick={() => navigate("https://tern-konnect-frontend.vercel.app/")}>
             Explore Academy
           </Button>
         </div>

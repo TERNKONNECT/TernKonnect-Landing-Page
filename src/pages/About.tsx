@@ -97,7 +97,7 @@ export default function About() {
               transforming how people with disabilities experience digital
               learning.
             </p>
-            <Link to="/courses">
+            <Link to="https://tern-konnect-frontend.vercel.app/">
               <Button className="gradient-primary border-0 text-white font-semibold mt-2 px-6">
                 Explore Academy
               </Button>
