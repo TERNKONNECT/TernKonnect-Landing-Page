@@ -414,8 +414,8 @@ export default function Services() {
                 </li>
               ))}
             </ul>
-            <Button className="gradient-primary border-0 text-white font-semibold text-sm mt-1">
-              Coming Soon
+            <Button className="gradient-primary border-0 text-white font-semibold text-sm mt-1" onClick={() => window.open("https://academy.ternkonnect.com/", "_blank")}>
+              Explore Academy
             </Button>
           </div>
         </div>
