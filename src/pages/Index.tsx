@@ -338,12 +338,14 @@ const Index = () => {
       <section className="py-12 md:py-20 bg-muted/50">
         <div className="container max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center gap-8 md:gap-14">
           <div className="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-lg flex-shrink-0">
-            <iframe
-              src="https://www.youtube.com/embed/BWmiwaUgy7A"
+            <video
+              src="/Assistive-Technology.mp4"
               title="Disabled person using tablet for accessible learning"
-              className="w-full h-56 sm:h-72 md:h-80"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+              className="w-full h-56 sm:h-72 md:h-80 object-cover"
+              controls
+              autoPlay
+              muted
+              loop
             />
           </div>
 
